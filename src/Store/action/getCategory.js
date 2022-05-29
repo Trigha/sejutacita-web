@@ -8,6 +8,7 @@ export const fetchAllCategory = () => {
       )
       .then(({ data }) => {
         dispatch(setCategory(data.data));
+        console.log(data.data);
       })
       .catch((err) => {
         console.log(err.response);
