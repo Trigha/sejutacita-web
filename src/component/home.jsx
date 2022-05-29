@@ -124,11 +124,11 @@ function Home() {
             className="flex flex-col items-center justify-center"
           >
             <h1 className="text-4xl font-semibold leading-9 text-center text-gray-800 dark:text-gray-50">
-              This Week Blogs
+              Lorem ipsum dolor
             </h1>
             <p className="text-base leading-normal text-center text-gray-600 dark:text-white mt-4 lg:w-1/2 md:w-10/12 w-11/12">
-              If you're looking for random paragraphs, you've come to the right
-              place. When a random word or a random sentence isn't quite enough
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempore
+              facere provident molestias ipsam sint voluptatum pariatur.
             </p>
           </div>
           <div className="lg:flex items-stretch md:mt-12 mt-8">
