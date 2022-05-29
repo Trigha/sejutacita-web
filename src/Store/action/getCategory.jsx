@@ -4,11 +4,10 @@ export const fetchAllCategory = () => {
   return (dispatch) => {
     axios
       .get(
-        'https://api.themoviedb.org/3/genre/movie/list?api_key=2fccde01a371b106b09a241d6d1d5b49'
+        'https://asia-southeast2-sejutacita-app.cloudfunctions.net/fee-assessment-categories'
       )
       .then(({ data }) => {
-        //    console.log(data.genres);
-        dispatch(setCategory(data.name));
+        dispatch(setCategory(data.data));
       })
       .catch((err) => {
         console.log(err.response);
